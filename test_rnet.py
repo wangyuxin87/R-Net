@@ -211,12 +211,12 @@ def detect_dataset(model, device, test_img_path, submit_path):
 
 
 if __name__ == '__main__':
-	test_path = '/home/yxwang/tensorflow/east/test/testimages'
+	test_path = './dataset/test/img'
 	sub_path= './output/'
 	device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 	model = R_Net().to(device)
 	# img_path    = '../ICDAR_2015/test_img/img_2.jpg'
-	model_path  = '/home/yxwang/pytorch/EAST/pths/pre_synth/fine_tune/7/model_epoch_930.pth'
+	model_path  = './output/model_epoch_930.pth'
 	model.load_state_dict(torch.load(model_path))
 	model.eval()
 	# img = Image.open(img_path)
