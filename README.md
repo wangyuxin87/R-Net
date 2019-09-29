@@ -19,12 +19,12 @@
 
 Download data images and annotions from [ICDAR 2015 Challenge 4]:https://rrc.cvc.uab.es/?ch=4&com=downloads. Prepare data as:
 
-'''
+~~~
 ./dataset/train/imgs
 ./dataset/train/txt
 ./dataset/test/imgs
 ./dataset/test/txt
-···
+~~~
 
 ## Pre-trained Model and Our trained Model.
 
