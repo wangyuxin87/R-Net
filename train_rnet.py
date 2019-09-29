@@ -77,15 +77,15 @@ def train(train_img_path, train_gt_path, pths_path, batch_size, lr, num_workers,
 				torch.save(state_dict, os.path.join(pths_path, 'model_best.pth'))
 
 if __name__ == '__main__':
-	train_path_img = '/home/yxwang/pytorch/ICDAR2015/east_z/train/img'
-	train_path_gt  = '/home/yxwang/pytorch/ICDAR2015/east_z/train/txt'
-	val_path_img = '/home/yxwang/pytorch/dataset/IC15/image'
-	val_path_gt  = '/home/yxwang/pytorch/dataset/IC15/gt'
+	train_path_img = './dataset/train/img'
+	train_path_gt  = './dataset/train/txt'
+	val_path_img = './dataset/test/img'
+	val_path_gt  = './dataset/test/txt'
 	pths_path      = './output/checkpoints'
 	batch_size     = 16
 	learning_rate  = 1e-4
 	num_workers    = 16
-	epoch_iter     = 1000
+	epoch_iter     = 900
 	save_interval  = 1
 	train(train_path_img, train_path_gt, pths_path, batch_size, learning_rate, num_workers, epoch_iter, save_interval, val_path_img, val_path_gt)
 	
