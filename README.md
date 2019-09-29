@@ -38,3 +38,8 @@ CUDA_VISIBLE_DEVICES=0 python test_rnet.py
 
 CUDA_VISIBLE_DEVICES=0,1 python train_rnet.py
 
+# Evaluation
+
+We use [online tool:https://rrc.cvc.uab.es/?ch=4&com=mymethods&task=1] to evaluate our results. 
+
+
