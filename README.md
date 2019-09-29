@@ -2,7 +2,7 @@
 
 # Description
   This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection".
-  The model is pre-trained on SynthText and achieves 85.6 F-score with 21.1 FPS on ICDAR 2015 Challenge 4.
+  The model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. It achieves 85.6 F-score with 21.1 FPS on ICDAR 2015 Challenge 4.
   
 # Requirement
 
