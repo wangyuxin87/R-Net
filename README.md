@@ -32,6 +32,8 @@ Download pre-trained [VGG16]:https://drive.google.com/file/d/1HgDuFGd2q77Z6DcUlD
 
 # Demo
 
+Run demo.py with our trained model.pth.
+
 CUDA_VISIBLE_DEVICES=0 python demo.py 
 
 # Test
