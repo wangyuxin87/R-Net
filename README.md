@@ -44,6 +44,6 @@ CUDA_VISIBLE_DEVICES=0,1 python train_rnet.py
 
 # Evaluation
 
-We use [online tool:https://rrc.cvc.uab.es/?ch=4&com=mymethods&task=1] to evaluate our results. 
+We use [online tool:https://rrc.cvc.uab.es/?ch=4] to evaluate our results. 
 
 
