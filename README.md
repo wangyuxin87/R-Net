@@ -2,7 +2,7 @@
 
 # Description
   This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection". The paper is underreview.
-  The model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. It achieves 85.63 F-score on ICDAR 2015 Challenge 4.
+  The released model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. It achieves 85.63 F-score on ICDAR 2015 Challenge 4. Reasults on other datasets (e.g. MSRA-TD500, ICDAR2013, MLT, etc.) can be easily obtained following our training setting.
   
 # Requirement
 
