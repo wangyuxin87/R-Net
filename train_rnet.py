@@ -85,7 +85,7 @@ if __name__ == '__main__':
 	batch_size     = 8  # 16 for 2 GPUs is default
 	learning_rate  = 1e-4
 	num_workers    = 16
-	epoch_iter     = 1000
+	epoch_iter     = 600
 	save_interval  = 200
 	train(train_path_img, train_path_gt, pths_path, batch_size, learning_rate, num_workers, epoch_iter, save_interval, val_path_img, val_path_gt)
 	
