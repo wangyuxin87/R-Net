@@ -17,7 +17,7 @@
 
 ## Data
 
-Download data images and annotions from [ICDAR 2015 Challenge 4]:(https://rrc.cvc.uab.es/?ch=4&com=downloads). Prepare data as:
+Download data images and annotions from [ICDAR 2015 Challenge 4](https://rrc.cvc.uab.es/?ch=4&com=downloads). Prepare data as:
 
 ~~~
 ./dataset/train/imgs
