@@ -17,7 +17,7 @@
 
 ## Data
 
-Download data images and annotions from [ICDAR 2015 Challenge 4]:https://rrc.cvc.uab.es/?ch=4&com=downloads. Prepare data as:
+Download data images and annotions from [ICDAR 2015 Challenge 4]:(https://rrc.cvc.uab.es/?ch=4&com=downloads). Prepare data as:
 
 ~~~
 ./dataset/train/imgs
@@ -28,7 +28,7 @@ Download data images and annotions from [ICDAR 2015 Challenge 4]:https://rrc.cvc
 
 ## Pre-trained Model and Our trained Model.
 
-Download pre-trained [VGG16]:https://drive.google.com/file/d/1HgDuFGd2q77Z6DcUlDEfBZgxeJv4tald/view (must rename as vgg16.pth) and [our traind model]:https://pan.baidu.com/s/1pgCOREQUDiCLGA3OpN4y0w. (passward:1syx) Put both models into output/
+Download pre-trained [VGG16](https://drive.google.com/file/d/1HgDuFGd2q77Z6DcUlDEfBZgxeJv4tald/view) (must rename as vgg16.pth) and [our traind model](https://pan.baidu.com/s/1pgCOREQUDiCLGA3OpN4y0w) (passward:1syx) Put both models into output/
 
 # Demo
 
@@ -46,6 +46,6 @@ CUDA_VISIBLE_DEVICES=0,1 python train_rnet.py
 
 # Evaluation
 
-We use [online tool:https://rrc.cvc.uab.es/?ch=4] to evaluate our results. 
+We use [online tool(https://rrc.cvc.uab.es/?ch=4]) to evaluate our results. 
 
 
