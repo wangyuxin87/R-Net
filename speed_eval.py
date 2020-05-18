@@ -180,28 +180,6 @@ def detect_dataset(model, device, test_img_path, submit_path):
 		img = Image.open(img_file)
 		boxes,time_temp = detect(img, model, device)
 		time_total += time_temp
-		# if want to show results, please uncomment following code
-		# im_write = cv2.imread(img_file)[:, :, ::-1]
-		# if boxes is not None:
-		# 	boxes = boxes[:, :8].reshape((-1, 4, 2))
-		# 	res_file = os.path.join(
-		# 		'./output/',
-		# 		'res_{}.txt'.format(
-		# 			os.path.basename(img_file).split('.')[0]))
-		#
-		# 	with open(res_file,'w') as f:
-		# 		for box in boxes:
-		# 			box = np.around(box).astype(np.int32)
-		# 			# if np.linalg.norm(box[0] - box[1]) < 2 or np.linalg.norm(box[3] - box[0]) < 2:
-		# 			# 	continue
-		# 			f.write('{},{},{},{},{},{},{},{}\r\n'.format(
-		# 				box[0, 0], box[0, 1], box[1, 0], box[1, 1], box[2, 0], box[2, 1], box[3, 0], box[3, 1],
-		# 			))
-		# 			cv2.polylines(im_write[:, :, ::-1], [box.astype(np.int32).reshape((-1, 1, 2))], True, color=(255, 255, 0),thickness=3)
-		#
-		# img_path = os.path.join('./output/img/', os.path.basename(img_file))
-		# cv2.imwrite(img_path, im_write[:, :, ::-1])
-
 	print('total_time ----------',time_total)
 	print('fps----------',500 / time_total)
 
