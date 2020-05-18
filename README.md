@@ -9,6 +9,10 @@
 |  This implementation (IC15)	|    84.5   	|     88.1   	|    86.3   	| 60.1   	|     67.9   	|    63.7   	| 
 
 The released model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. Reasults on other datasets (e.g. MSRA-TD500, ICDAR2013, MLT, etc.) can be easily obtained by following our training setting.
+
+## Updates
+2020/5/18 We have updated the code.
+
 # Requirement
 
 * Python3 
