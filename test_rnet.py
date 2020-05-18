@@ -124,7 +124,6 @@ def get_boxes(score, geo, score_thresh=0.9, nms_thresh=0.2):
 
 	time_4 = time.time()
 	time_nms = time_4 - time_6
-	# print('nms---------',time_nms)
 	return boxes, time_nms
 
 
@@ -215,7 +214,6 @@ if __name__ == '__main__':
 	model_path  = 'output/model.pth'
 	model.load_state_dict(torch.load(model_path))
 	model.eval()
-	# img = Image.open(img_path)
 
 	boxes = detect_dataset(model, device,test_path, sub_path)
 
