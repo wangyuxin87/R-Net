@@ -1,15 +1,14 @@
 # R-Net
 
 # Description
-  This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection". The paper is underreview.
-  The released model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. 
+  This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection", which is a direct regression based method for multi-oriented scene text detection. The paper is accepted and will be published in few days.
   
 ## Result
 |        Model       	| recall 	| precision 	| F-measure 	| TIoU-R 	| TIoU-P 	| TIoU-F 	|
 |:------------------:	|:---------:	|:------:	|:---------:	|:---------:	|:------:	|:---------:	|   
 |  This implementation (IC15)	|    84.5   	|     88.1   	|    86.3   	| 60.1   	|     67.9   	|    63.7   	| 
 
-Reasults on other datasets (e.g. MSRA-TD500, ICDAR2013, MLT, etc.) can be easily obtained by following our training setting.
+The released model is pre-trained on SynthText (1 epoch) and then finetune on ICDAR2015. Reasults on other datasets (e.g. MSRA-TD500, ICDAR2013, MLT, etc.) can be easily obtained by following our training setting.
 # Requirement
 
 * Python3 
@@ -37,22 +36,29 @@ Download data images and annotions from [ICDAR 2015 Challenge 4](https://rrc.cvc
 Download pre-trained [VGG16](https://drive.google.com/file/d/1HgDuFGd2q77Z6DcUlDEfBZgxeJv4tald/view) (must rename as vgg16.pth) and [our traind model](https://pan.baidu.com/s/1HE6Yqg-8YfgSDQori58wcQ) (passward:oowz) Put both models into output/
 
 
-# Test
+## Test
 ```bash
 CUDA_VISIBLE_DEVICES=0 python test_rnet.py
 ```
-# Train
+## Train
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 python train_rnet.py
 ```
-# Evaluation
+## Evaluation
 
 We use [online tool(https://rrc.cvc.uab.es/?ch=4]) to evaluate our results. 
 
-# Speed
+## Speed
 
 Run 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python speed_eval.py.
 ```
 We add the model prediction time and the NMS time as the inference speed.
+
+# Citation
+
+This part will be completed in few days.
+
+# Feedback
+Suggestions and discussions are greatly welcome. Please contact the authors by sending email to ```wangyx58@mail.ustc.edu.cn```
