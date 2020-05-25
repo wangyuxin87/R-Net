@@ -61,15 +61,13 @@ CUDA_VISIBLE_DEVICES=0 python speed_eval.py.
 We add the model prediction time and the NMS time as the inference speed.
 
 # Citation
-
+```bash
 @ARTICLE{rnet2020wang,
   author={Y. {Wang} and H. {Xie} and Z. {Zha} and Y. {Tian} and Z. {Fu} and Y. {Zhang}},
   journal={IEEE Transactions on Multimedia}, 
   title={R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection}, 
   year={2020},
-  volume={},
-  number={},
   pages={1-1},}
-
+```
 # Feedback
 Suggestions and discussions are greatly welcome. Please contact the authors by sending email to ```wangyx58@mail.ustc.edu.cn```
