@@ -1,7 +1,7 @@
 # R-Net
 
 # Description
-  This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection". R-Net is a direct regression based method for multi-oriented scene text detection, which outperforms parallel methods by a large margin. The paper will be avaliable soon.
+  This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection". R-Net is a direct regression based method for multi-oriented scene text detection, which outperforms parallel methods by a large margin. The paper is avaliabel at [Paperlink](https://ieeexplore.ieee.org/document/9096525).
   
 ## Result
 |        Model       	| recall 	| precision 	| F-measure 	| TIoU-R 	| TIoU-P 	| TIoU-F 	|
@@ -62,6 +62,14 @@ We add the model prediction time and the NMS time as the inference speed.
 
 # Citation
 
+@ARTICLE{rnet2020wang,
+  author={Y. {Wang} and H. {Xie} and Z. {Zha} and Y. {Tian} and Z. {Fu} and Y. {Zhang}},
+  journal={IEEE Transactions on Multimedia}, 
+  title={R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},}
 
 # Feedback
 Suggestions and discussions are greatly welcome. Please contact the authors by sending email to ```wangyx58@mail.ustc.edu.cn```
