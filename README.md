@@ -4,7 +4,7 @@
   This is an implement of "R-Net: A Relationship Network for Efficient and Accurate Scene Text Detection". R-Net is a direct regression based method for multi-oriented scene text detection, which outperforms parallel methods by a large margin. The paper is avaliabel at [Paperlink](https://ieeexplore.ieee.org/document/9096525).
   
 ## Result
-|        Model       	| recall 	| precision 	| F-measure 	| TIoU-R 	| TIoU-P 	| TIoU-F 	|
+|        Model       	| recall 	| precision 	| F-measure 	| [TIoU-R](https://github.com/Yuliang-Liu/TIoU-metric) 	| [TIoU-P](https://github.com/Yuliang-Liu/TIoU-metric) 	| [TIoU-F](https://github.com/Yuliang-Liu/TIoU-metric) 	|
 |:------------------:	|:---------:	|:------:	|:---------:	|:---------:	|:------:	|:---------:	|   
 |  This implementation (IC15)	|    84.5   	|     88.1   	|    86.3   	| 60.1   	|     67.9   	|    63.7   	| 
 
